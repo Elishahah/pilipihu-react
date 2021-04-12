@@ -1,13 +1,9 @@
 import React from 'react';
 
-import MyHeader from './Header'
-
-import './App.less'
-import './Header.css'
+import './App.less';
 
 const App = () => (
   <div className="App">
-    <MyHeader />
   </div>
 );
 
