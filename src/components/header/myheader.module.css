@@ -1,0 +1,70 @@
+* {
+    font-size: 20px;
+    text-decoration: none;
+    /* border: black solid 1px;
+    background-color: rgba(255, 0, 0, 0.1); */
+}
+
+.show {
+    border: black solid 1px;
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+.header {
+    /* border: black solid 1px; */
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navSite {
+    display: block;
+    width: 30%;
+    float: left;
+    height: 48px;
+    margin-top: 7px
+}
+
+.searchBar {
+    display: block;
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 48px;
+    margin-top: 15px
+}
+
+.navUser {
+    display: block;
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.navUser .button {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navItem {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navItem a {
+    color: black;
+}
+
+.homeLink {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.homeLink a {
+    color: black;
+}
+
+.clearFloat {
+    clear: both;
+}

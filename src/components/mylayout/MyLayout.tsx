@@ -1,7 +1,6 @@
 import React from 'react';
 
 import PropsChildren from '../Props'
-import mylayout from './mylayout.modules.css';
 
 interface Props {
     children: PropsChildren
@@ -9,7 +8,7 @@ interface Props {
 
 function MyLayout(props: Props) {
     return (
-        <div className={mylayout.main}>{props.children}</div>
+        <div>{props.children}</div>
     );
 }
 
