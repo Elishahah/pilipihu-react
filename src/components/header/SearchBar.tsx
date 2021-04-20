@@ -2,9 +2,9 @@ import MyInPut from "./MyInPut";
 
 import style from './myheader.module.css';
 
-interface PropsSearchBar { }
+interface Props { }
 
-export default function SearchBar(props: PropsSearchBar) {
+export default function SearchBar(props: Props) {
     return (
         <div className={style.searchBar}>
             <MyInPut />

@@ -4,9 +4,9 @@ import NavItem from './NavItem';
 
 import style from './myheader.module.css';
 
-interface PropsNavUser { }
+interface Props { }
 
-export default function NavUser(props: PropsNavUser) {
+export default function NavUser(props: Props) {
     return (
         <div className={style.navUser}>
             <MyAvatar />

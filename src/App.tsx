@@ -1,12 +1,14 @@
 import React from 'react';
 
 import './App.less';
-import MyHeader from './components/header/MyHeader';
+import Login from './components/login/Login';
+// import MyHeader from './components/header/MyHeader';
 import MyLayout from './components/mylayout/MyLayout';
 
 const App = () => (
   <MyLayout>
-    <MyHeader/>
+    {/* <MyHeader/> */}
+    <Login/>
   </MyLayout>
 );
 

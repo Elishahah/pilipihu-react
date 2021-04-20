@@ -4,9 +4,9 @@ import NavItem from './NavItem';
 
 import style from './myheader.module.css';
 
-interface PropsNavSite { }
+interface Props { }
 
-export default function NavSite(props: PropsNavSite) {
+export default function NavSite(props: Props) {
     return (
         <div className={style.navSite}>
             <HomeLink />

@@ -1,8 +1,8 @@
 import { Input, Space } from "antd";
 
-interface PropsMyInput { }
+interface Props { }
 
-export default function MyInPut(props: PropsMyInput) {
+export default function MyInPut(props: Props) {
     const { Search } = Input;
     const onSearch = (value: string) => console.log(value);
     return (

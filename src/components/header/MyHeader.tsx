@@ -4,9 +4,9 @@ import SearchBar from './SearchBar';
 
 import style from './myheader.module.css';
 
-interface PropsHeader { }
+interface Props { }
 
-export default function MyHeader(props: PropsHeader) {
+export default function MyHeader(props: Props) {
     return (
         <div className={style.header}>
             <NavSite />
