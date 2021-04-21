@@ -8,12 +8,12 @@ interface Props{
 export default function Login(props: Props) {
 
     const handleSubmit = ()=>{
-        axios.defaults.baseURL = "http://127.0.0.1:8848/user-services/api1"
+        axios.defaults.baseURL = "http://localhost:3000/api1"
         axios({
             method: "GET",
-            url: "user/"
+            url: "/user/"
         }).then((response)=>{
-            console.log(response);
+            console.log(response.data);
         }).catch((reason)=>{
             console.log(reason);
             
